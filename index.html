@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyCode</title>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="./css/themes.css" rel="stylesheet" type="text/css" />
+    <script src="./js/key.js"></script>
+</head>
+<body onkeydown="input(event)">
+    <div id="welcomeText">
+        <h1 id="welcomeTitle">Welcome to Sam's KeyCode Generator</h1>
+        <h2 id="welcomeDesc">Press a Key and it'll appear in the textbox below!</h2>
+    </div>
+    <section class="content">
+        <h1 id="title"></h1>
+        <h2 id="which-2"></h2>
+        <section class="information hide" id="unhide">
+            <box>
+                <h3>Key</h3>
+                <p id="key"></p>
+            </box>
+            <box>
+                <h3>Location</h3>
+                <p id="location"></p>
+            </box>
+            <box>
+                <h3>Which</h3>
+                <p id="which"></p>
+            </box>
+            <box>
+                <h3>Code</h3>
+                <p id="code"></p>
+            </box>
+        </section>
+    </section>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    background-color:var(--background-color);
+    color:var(--background-text-color);
+    margin:0;
+    padding:0;
+}
+
+/*Greeting*/
+#welcomeText {
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#welcomeText h1, #welcomeText h2 {
+    margin:4px;
+    padding:4px;
+}
+
+/*Content*/
+.content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+
+.content .information {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+}
+
+#which-2 {
+    margin:60px;
+}
+
+.content box {
+    background-color:var(--border-color);
+    color:var(--background-text-color);
+    padding:12px;
+    padding-right:24px;
+    padding-left:24px;
+    width:100px;
+}
+
+/*Hide Content*/
+.hide {
+    display: none !important;
+}
